@@ -1,4 +1,4 @@
-# Calligraphy Lesson
+Calligraphy Lesson
 ===
 
 ## Summary

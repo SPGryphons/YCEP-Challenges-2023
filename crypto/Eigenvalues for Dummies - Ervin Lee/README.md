@@ -1,4 +1,4 @@
-# Eigenvalues for Dummies
+Eigenvalues for Dummies
 ===
 
 ## Summary

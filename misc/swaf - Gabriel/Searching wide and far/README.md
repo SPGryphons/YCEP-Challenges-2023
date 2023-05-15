@@ -1,4 +1,5 @@
-# Searching wide and far
+Searching wide and far
+===
 
 ## Summary
 - Author:	Gabriel

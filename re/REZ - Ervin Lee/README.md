@@ -1,4 +1,4 @@
-# REZ
+REZ
 ===
 
 ## Summary

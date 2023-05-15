@@ -1,4 +1,4 @@
-# Language of the Gods
+Language of the Gods
 ===
 
 ## Summary
