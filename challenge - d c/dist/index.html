@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Blog</title>
+    <script>
+        function checkURL() {
+            var urlParams = new URLSearchParams(window.location.search);
+            if(urlParams.get('gateway') === 'true') {
+                document.getElementById('secret').style.display = 'block';
+            }
+        }
+    </script>
+</head>
+<body onload="checkURL();">
+    <h1>Welcome to My Simple Blog</h1>
+    <p>This is a sample blog post...</p>
+    <div id="secret" style="display: none;">
+        <h2>You found the hidden gateway!</h2>
+        <p>Your flag is: {{flag}}</p>
+    </div>
+</body>
+</html>

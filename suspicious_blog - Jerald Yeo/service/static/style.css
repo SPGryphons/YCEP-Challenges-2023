@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;
+}
+
+* {
+    text-align: center;
+}
+
+h1 {
+    background-color: azure;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    background-color:rgb(86, 153, 230);
+    padding: 10px auto;
+    box-shadow:-4px 4px black;
+    border-radius: 3px;
+}
+
+.gallery figure {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(138, 183, 235);
+    border-radius: 5px;
+}
+
+img {
+    width: 350px;
+    height:300px;
+}
+
