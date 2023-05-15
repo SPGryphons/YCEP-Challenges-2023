@@ -7,6 +7,7 @@ Key to your answer lies within the magic and beauty of calligraphy. The war betw
 ## Hints
 1. This character can be found in the language writing systems of two languages and is the key to something secret. (Free Hint)
 2. Do you know that files have heads?
+3. The number of strokes making up the character might tell you something.
 
 ## Flag
 ```
