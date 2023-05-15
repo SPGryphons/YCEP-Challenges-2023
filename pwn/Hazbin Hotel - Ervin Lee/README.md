@@ -1,4 +1,4 @@
-Happy Hotel
+Hazbin Hotel
 ===
 
 ## Summary
@@ -9,6 +9,7 @@ Happy Hotel
 
 ## Solution
 - Simple format string attack to retrieve the flag from the stack.
+- Spam a bunch of hexadecimal format strings `%x` until it prints out the flag.
 
 ## Flag
 ```
