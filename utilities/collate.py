@@ -22,8 +22,4 @@ if __name__ == '__main__':
         categories=["crypto", "forensics", "misc", "osint", "pwn", "reverse", "web"], 
         path="../challenges/"
     )
-<<<<<<< HEAD
     counter.print_count()
-=======
-    # counter.print_count()
->>>>>>> 74357d417835e41c1a49ecdc74c46de68f433ea2
