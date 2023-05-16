@@ -4,7 +4,7 @@ Description: LIGHT nER! HELP M-MME FIND THE [p4ssw0rd Tm.] ANND I'LL GIVE YOU 10
 ## Summary
 Author: hsl#6732 (credit to BohLaio#7322 for helping with the video and image)
 Category: OSINT
-Difficulity: Hard
+Difficulty: Hard
 
 ## Solution:
 1. Open the website

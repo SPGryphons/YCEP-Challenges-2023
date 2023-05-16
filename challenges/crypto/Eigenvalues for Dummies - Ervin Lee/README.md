@@ -5,7 +5,7 @@ Eigenvalues for Dummies
 * **Author:** Ervin Lee
 * **Discord Tag:** perspectives#9963
 * **Category:** Cryptography
-* **Difficulty:** Hard/Extreme
+* **Difficulty:** Extreme
 
 ## Solution
 - This is a mathematical cryptography challenge involving eigenvalues and eigenvectors.
