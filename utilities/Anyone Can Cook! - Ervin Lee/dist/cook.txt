@@ -1,0 +1,52 @@
+Flag Souffle.
+
+This recipe prints the immortal words "Hello world!", in a basically 
+brute force way. It also makes a lot of food for one person.
+
+Ingredients.
+89 g haricot beans
+67 eggs
+69 g lard
+80 cups oil
+50 zucchinis
+48 ml water
+50 g red salmon
+51 g dijon mustard
+123 potatoes
+82 g flour
+97 g ground beef
+84 g minced beef
+111 butter
+85 ml tomato sauce
+105 ml milk
+76 g rat meat
+76 g fish
+101 ml soy sauce
+125 g salt
+
+Method.
+Put salt into the mixing bowl.
+Put soy sauce into the mixing bowl.
+Put fish into the mixing bowl.
+Put rat meat into the mixing bowl.
+Put milk into the mixing bowl.
+Put tomato sauce into the mixing bowl.
+Put butter into the mixing bowl.
+Put minced beef into the mixing bowl.
+Put ground beef into the mixing bowl.
+Put minced beef into the mixing bowl.
+Put ground beef into the mixing bowl.
+Put flour into the mixing bowl.
+Put potatoes into the mixing bowl.
+Put dijon mustard into the mixing bowl.
+Put red salmon into the mixing bowl.
+Put water into the mixing bowl.
+Put zucchinis into the mixing bowl.
+Put oil into the mixing bowl.
+Put lard into the mixing bowl.
+Put eggs into the mixing bowl.
+Put haricot beans into the mixing bowl.
+Liquefy contents of the mixing bowl.
+Pour contents of the mixing bowl into the baking dish.
+
+Serves 1.
