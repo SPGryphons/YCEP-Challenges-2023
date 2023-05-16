@@ -6,7 +6,7 @@ Wall Troll
    - Author: Branson Woo Wung Lai
    - Discord Tag: BohLiao#7322
    - Category: OSINT / Insanity check
-   - Difficulty: Easy / Medium?
+   - Difficulty: Medium
 
 ## Solution
 

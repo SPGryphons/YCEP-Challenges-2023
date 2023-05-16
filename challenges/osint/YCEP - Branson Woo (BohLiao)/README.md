@@ -6,7 +6,7 @@ Wild Goose Chase
    - Author: Branson Woo Wung Lai
    - Discord Tag: BohLiao#7322
    - Category: OSINT
-   - Difficulty: Easy / Medium?
+   - Difficulty: Medium
 
 ## Solution
 
