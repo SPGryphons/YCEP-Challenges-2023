@@ -10,7 +10,7 @@ For local-testing of challenges, run:
 ```bash
 gh login auth -w
 git clone https://github.com/DISMGryphons/YCEP-Challenges-2023
-cd ./YCEP-Challenges-2023/"$c"/
+cd ./YCEP-Challenges-2023/"$c"/service/
 docker run --rm -it $(docker build -q .)
 ```
     
@@ -22,7 +22,7 @@ For porting/hosting on challenge server, run:
 gh login auth -w
 git clone https://github.com/DISMGryphons/YCEP-Challenges-2023
 cd ./YCEP-Challenges-2023
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Contributing
