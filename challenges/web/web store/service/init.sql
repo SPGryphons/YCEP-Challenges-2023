@@ -15,4 +15,4 @@ CREATE TABLE users(
 );
 
 INSERT INTO users VALUES (1,'Administrator_0x1','b37e022b66b74977f9be5cf355d065dce7ab5935');
-INSERT INTO items VALUES (1,'Hat','10','hat.png');
+INSERT INTO items VALUES (1,'Hat',10,'hat.jpg'),(2,'Goofy ahh glasses',20,'goofyahh.jpg'),(3,'Self Portrait',50,'dread.png'),(4,'fish.',100,'fish.png'),(5,'pandas',100,'pandas.jpg'),(6,'rock climbing experience',150,'rock_climbing.jpg');
