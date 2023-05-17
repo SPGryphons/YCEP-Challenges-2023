@@ -1,7 +1,6 @@
 Flag Souffle.
 
-This recipe prints the immortal words "Hello world!", in a basically 
-brute force way. It also makes a lot of food for one person.
+This recipe prints the immortal words, in a basically brute force way. It also makes a lot of food for one person.
 
 Ingredients.
 89 g haricot beans
