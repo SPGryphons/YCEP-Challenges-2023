@@ -1,4 +1,4 @@
-Happy Hotel
+# Happy Hotel
 ===
 
 ## Summary
