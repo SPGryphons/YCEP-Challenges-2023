@@ -54,10 +54,10 @@ int main()
     ascii_art();
     display_message();
     char userid[20];
-    char another_userid[20] = "H001";
     char password[BUFMAX];
-    char correct_userid[20] = "H100";
     char correct_password[20] = "qwerty";
+    char another_userid[20] = "H001";
+    char correct_userid[20] = "H100";
     printf("Please enter your ID (Format: HXXX) => ");
     gets(userid);
     if (strcmp(userid, correct_userid) == 0)
@@ -71,9 +71,9 @@ int main()
         else
         {
             int check_flag = strcmp(userid, another_userid);
-            if (check_flag < 0)
+            if (check_flag == 0)
             {
-                printf("Welcome back, %s! Your room number is HH-5344\n", userid);
+                printf("Welcome back, %s! Your room number is HH-5344\n", another_userid);
                 print_flag();
             }
             else
@@ -88,4 +88,4 @@ int main()
     }
 
     return 0;
-}   
+}
