@@ -9,6 +9,7 @@ Wall Troll
    - Difficulty: Medium
 
 ## Solution
+Option A - For they, were codeless...:
 
 1. Download [grepWin](https://tools.stefankueng.com/grepWin.html), a simple search and replace tool which can use regular expressions to do its job.
 2. Opening grepWin, open the folder which contains 'Trolled.txt'.
@@ -16,10 +17,16 @@ Wall Troll
 4. The only thing left in the txt file should be the flag's contents.
 5. Party!
 
+Option B - Automation rocks!:
+1. Studying through the file, one realises that it is completely filled with evenly spaced numbers from 0 - 9. (If they really looked, they'd realise there was 1,000,000 numbers. :D)
+2. Now that you know the differences, create a python file to solve search through the entire file for unique characters and insert it into a new text file. OR Search the Internet to learn how to have Python actually do it.
+3. Party!
+
 ## Flag
 
 YCEP2023{Are_U_Is_Insane_Bro?}
 
 ## Extra
 
-Produced with the script YCEP.py
+Produced with problem.py
+Solved with sol.py

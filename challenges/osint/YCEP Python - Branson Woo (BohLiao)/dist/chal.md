@@ -4,7 +4,7 @@
 
 Darnit! Somebody thought it'd be funny to fill our flag file with thousands of numbers! YOU THERE, PRIVATE! I don't want to deal with this, so YOU clean this mess up!
 
-Flag format: YCEP2023{Place_Name} (Add underscores for space. Case sensitive.)
+Flag format: YCEP2023{Insert_Flag_Here} (Add underscores for space. Case sensitive.)
 
 ## Hints
 
