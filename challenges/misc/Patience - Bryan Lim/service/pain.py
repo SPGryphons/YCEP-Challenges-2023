@@ -92,7 +92,7 @@ if __name__ == "__main__":
   output("Now I know, you're just here for the flag.")
   output("So let me help you with that.")
 
-  fake_timer_thread = threading.Thread(target=fake_timer.start)
+  fake_timer_thread = threading.Thread(target=fake_timer.start, daemon=True)
   fake_timer_thread.start()
 
   time.sleep(3)
