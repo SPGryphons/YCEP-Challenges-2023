@@ -23,4 +23,4 @@ private_key = RSA.import_key(file_in.read())
 print(private_key)
 file_in.close()
 
-# Oops, my computer crashed and I lot a lot of progress on my code. Can you help me recover the flag?
+# Oops, my computer crashed and I lost a lot of progress on my code. Can you help me recover the flag?

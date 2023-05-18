@@ -1,8 +1,10 @@
 import argparse
 from utils.collate import Counter
 from utils.unzip import ZipHandler
+from utils.sorter import Sorter
 
 parser = argparse.ArgumentParser()
+parser.add_argument("-s", "--sort", help="Sort all challenges into their respective categories", action="store_true")
 parser.add_argument("-X", "--unzip-all", help="Unzip all files in directory", action="store_true")
 parser.add_argument("-c", "--count", help="Count number of challenges", action="store_true")
 parser.add_argument("-cA", "--diffs", help="Count number of challenges by difficulty and total", action="store_true")
@@ -26,6 +28,9 @@ if __name__ == '__main__':
             path="./challenges/"
         )
         counter.count_diffs()
+    elif args.sort:
+        sorter = Sorter(path="./challenges/")
+        sorter.sort_all()
     
     else:
         print("No arguments passed. Use -h or --help for help.")

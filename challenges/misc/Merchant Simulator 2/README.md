@@ -5,7 +5,7 @@ Merchant Simulator 2
 * **Author:** Bryan Lim
 * **Discord Tag:** JusCodin#3049
 * **Category:** Misc
-* **Difficulty:** Medium
+* **Difficulty:** Hard
 
 ## Solution
 This game is based of an insanely old game called "Taipan!", where you sail your ship to different places and buy and sell stuff.
