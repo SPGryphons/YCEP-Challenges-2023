@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        ul {
+            display: block;
+            height: 10vh;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background-color: orange;
+        }
+        li {
+            display: block;
+            background-color: orange;
+            float: left;
+            height: 100%;
+            width: 20%;
+            list-style-type: none;
+            text-align: center;
+        }
+        li > a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 10vh;
+        }
+        li:hover {
+            filter: brightness(0.8);
+            box-shadow: 0 0 15px black;
+        }
+    </style>
+    <style>
+        body > a {
+            display: block;
+            height: 8em;
+            width: 80%;
+            background-color: #80808078;
+            text-decoration: none;
+            box-shadow: 0 0 15px orange;
+        }
+        body > a > h2 {
+            color: black;
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body > a > p {
+            color: black;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+    </ul>
+    <h1>Blog</h1>
+    <p>Blogs created by me</p>
+    <a href="/blog_3">
+        <h2>Welcome to my blog!</h2>
+        <p>Created by me to teach you some of the stuff about the blog</p>
+    </a>
+    <a href="/blog_2">
+        <h2>Introduction to myself</h2>
+        <p>More about me! Click to find out more!</p>
+    </a>
+</body>
+</html>

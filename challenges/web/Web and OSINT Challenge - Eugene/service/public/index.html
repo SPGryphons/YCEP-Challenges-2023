@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        ul {
+            display: block;
+            height: 10vh;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background-color: orange;
+        }
+
+        li {
+            display: block;
+            background-color: orange;
+            float: left;
+            height: 100%;
+            width: 20%;
+            list-style-type: none;
+            text-align: center;
+        }
+
+        li>a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 10vh;
+        }
+
+        li:hover {
+            filter: brightness(0.8);
+            box-shadow: 0 0 15px black;
+        }
+    </style>
+    <style>
+        form > p {
+            display: none;
+            color: red;
+        }
+        input:invalid {
+            border-color: red;
+            border-width: 3px;
+            border-style: solid;
+        }
+        input:invalid ~ p {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+    </ul>
+    <h1>Welcome to the webpage! Login</h1>
+    <form>
+        <label for="user">Username</label>
+        <br>
+        <input name="user" type="text">
+        <br>
+        <label for="pass">Password</label>
+        <br>
+        <input name="pass" pattern="........+" title="8 or more chars" type="password">
+        <p>8 or more chars</p>
+        <br>
+        <button>Log In</button>
+    </form>
+    <form action="/verify">
+        <h2>Get the flag after you found all the pieces!</h2>
+        <code>
+            Found all 3 pieces? Just put them together!(in order) Example: 
+            if I get Piece 1 = AB_C,  Piece 3 = 432, Piece 2 = XYZ, 
+            the complete one is: AB_CXYZ432
+        </code>
+        <br>
+        <input name="complete_piece" type="text">
+        <button>Get Flag!</button>
+    </form>
+</body>
+
+</html>
