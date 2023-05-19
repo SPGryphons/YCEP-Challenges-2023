@@ -22,13 +22,17 @@ class Sorter:
     def __init__(self, path: str = "./"):
         self.path = path
 
+    def strip_formatting(self, line: str) -> str:
+        # remove everything that isnt alphanumeric or a space
+        return "".join([c for c in line if c.isalnum() or c == " "])
+
     def get_category(self, folder: str) -> str:
         if not os.path.exists(folder + "/README.md"):
             return None
-        with open(folder + "/README.md", "r") as f:
+        with open(folder + "/README.md", "r", encoding="utf-8") as f:
             for line in f.readlines():
-                if "**category:**" in line.lower():
-                    category = line.lower().split("**category:**")[1].strip()
+                if "category" in line.lower():
+                    category = self.strip_formatting(line.lower().split("category")[1]).strip()
                     for key in mapping:
                         for value in mapping[key]:
                             if value in category:
@@ -39,8 +43,17 @@ class Sorter:
     def sort_all(self):
         for folder in glob.glob("*"):
             if folder not in ignore_files:
-                category = self.get_category(folder)
+                try:
+                    category = self.get_category(folder)
+                except Exception as e:
+                    print("Unable to find category for", folder)
+                    continue
                 if category is not None:
+                    # check if the folder is already in the category folder
+                    if os.path.exists(self.path + category + "/" + folder):
+                        print(folder, "is already in", category)
+                        continue
+                    print("Moving", folder, "to", category)
                     shutil.move(folder, self.path + category)
                 else:
                     print("Unable to find category for", folder)

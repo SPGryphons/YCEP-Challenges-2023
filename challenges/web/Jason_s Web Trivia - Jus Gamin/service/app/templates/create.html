@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Create Question</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link href="/static/css/style.css" rel="stylesheet">
+  <script src="/static/js/create.js"></script>
+</head>
+<body>
+  <div class="container rounded bg-primary text-white mt-5 p-2">
+    <h1 class="text-center">Jason's Web Trivia</h1>
+    <h2 class="text-center">Welcome, {{ username }}<span id="username"></span></h2>
+    <div class="text-center">
+      <a href="/logout"><button class="btn btn-danger">Logout</button></a>
+    </div>
+  </div>
+
+  <div class="container rounded bg-light py-3 my-2">
+
+    <div class="row-cols-1">
+      <div class="error alert alert-danger" role="alert" style="display: none;">
+      </div>
+    </div>
+    
+    <div class="row-cols-1">
+      <h2 class="text-left">Create Trivia Question</h2>
+    </div>
+    <div class="row-cols-1">
+      <form onsubmit="return false;">
+        <div class="form-group">
+          <label for="question">Question</label>
+          <input type="text" class="form-control" id="question" name="question" placeholder="Enter question" required>
+        </div>
+        <div class="form-group">
+          <label for="answer">Answer</label>
+          <input type="text" class="form-control" id="answer" name="answer" placeholder="Enter answer" required>
+        </div>
+        <button class="btn btn-primary" onclick="create()">Submit</button>
+      </form>
+    </div>
+
+</body>
+</html>
