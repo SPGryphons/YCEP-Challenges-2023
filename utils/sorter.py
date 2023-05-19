@@ -22,13 +22,17 @@ class Sorter:
     def __init__(self, path: str = "./"):
         self.path = path
 
+    def strip_formatting(self, line: str) -> str:
+        # remove everything that isnt alphanumeric or a space
+        return "".join([c for c in line if c.isalnum() or c == " "])
+
     def get_category(self, folder: str) -> str:
         if not os.path.exists(folder + "/README.md"):
             return None
         with open(folder + "/README.md", "r") as f:
             for line in f.readlines():
-                if "**category:**" in line.lower():
-                    category = line.lower().split("**category:**")[1].strip()
+                if "category" in line.lower():
+                    category = self.strip_formatting(line.lower().split("category")[1]).strip()
                     for key in mapping:
                         for value in mapping[key]:
                             if value in category:
