@@ -1,9 +1,14 @@
-Web and OSINT Challenge
+Web and OSINT 
+
 Summary
 Author: Eugene
+
 Discord Tag: Testing8191#4985
+
 Category: Web/OSINT
+
 Difficulty: Medium
+
 Solution
 1. To find second piece, go to 'Blog' in nav bar and click any one of the posts
 2. Notice the post ids in blog are '2' and '3' only. The '1' is missing
