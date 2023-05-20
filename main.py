@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import argparse
 from utils.collate import Counter
 from utils.unzip import ZipHandler
@@ -16,7 +18,6 @@ parser.add_argument("-r", "--repair", help="Attempt to repair a challenge, may n
 parser.add_argument("-C", "--check-csv", help="Check a csv file for challenges")
 
 args = parser.parse_args()
-
 if __name__ == '__main__':
     if args.unzip_all:
         zip_handler = ZipHandler()
