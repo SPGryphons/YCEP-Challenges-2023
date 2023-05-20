@@ -35,6 +35,7 @@ if __name__ == '__main__':
             path="./challenges/"
         )
         counter.count_diffs()
+        
     elif args.sort:
         sorter = Sorter(path="./challenges/")
         sorter.sort_all()
