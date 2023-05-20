@@ -4,7 +4,7 @@ Spamton's Insanity
 * **Author:** Chee Kin
 * **Discord Tag:** hsl#6732 (credit to BohLiao#7322 for helping with the video and image)\
 * **Category:** OSINT
-* **Difficulity:** Hard
+* **Difficulty:** Hard
 
 ## Solution:
 1. Open the website
