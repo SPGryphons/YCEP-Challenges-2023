@@ -5,7 +5,7 @@ Ascii71
 - Author: Lucius Chee Zihan
 - Discord Tag: lcz5#3392
 - Category: Cryptography
-- Difficulty: Medium
+- Difficulty: Hard
 
 ## Solution
 Ascii71 splits plaintext into blocks of 3 bytes (pads ends with \x00 if less than 3), concatenates their binary representations and then divides the result by 71 repeatedly. The remainder of each operation shall be the index of the alphabet (e.g. 0 -> "3"), or represented by ASCII code `<remainder>` + 51.
