@@ -5,7 +5,7 @@ Unfinished
 * Author: Gabriel
 * Discord Tag: duckupus#6535
 * Category: rev
-* Difficulty: Med
+* Difficulty: Medium
 
 ## Solution
 1. reverse the program(Insert Binary Here). Find out what it does.
