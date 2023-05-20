@@ -48,11 +48,8 @@ class Counter:
                     difficulty = self.strip_formatting(
                         line.lower().split("difficulty")[1].strip()
                     ).strip()
-                    print(difficulty)
                     if difficulty.lower() in DIFFICULTIES:
                         return difficulty
-                    else:
-                        print(difficulty)
         return None
         
     def get_chall_infos(self) -> dict[str, list[str, str | None]]:
