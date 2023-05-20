@@ -5,7 +5,7 @@ Basic
 * **Author:** Bryant Ten
 * **Discord Tag:** Tensei#7374
 * **Category:** Reverse
-* **Difficulty:** Easy
+* **Difficulty:** Medium
 
 ## Solution
 1. Code a program that reverses the encryption (Remember to give the participants chall.c and chall.txt)
