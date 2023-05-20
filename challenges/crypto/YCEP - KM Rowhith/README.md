@@ -8,10 +8,10 @@ IWonderWhereIsTheFlag?
 * **Difficulty:** Easy
 
 ## Solution
-Look at source code.Open css file.
-Convert binary to text.
-The binary in the webpage is a trick.
-The actual flag is in the css source file :)
+1. Look at source code.Open css file.
+2. Convert binary to text.
+3. The binary in the webpage is a trick.
+4. The actual flag is in the css source file :)
 
 ## Flag
 ```
