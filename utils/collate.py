@@ -1,17 +1,6 @@
 import os
 
 DIFFICULTIES = ["easy", "medium", "hard", "extreme"]
-
-mapping = {
-  "crypto": ["crypto", "cryptography"],
-  "forensics": ["forensics", "forensic"],
-  "misc": ["misc", "miscellaneous"],
-  "pwn": ["pwn", "pwnable"],
-  "reverse": ["reversing", "reverse", "reverse engineering", "rev"],
-  "web": ["web", "web exploitation", "web_exploitation"],
-  "osint": ["osint", "open source intelligence"]
-}
-
 class Counter:
     def __init__(self, categories: list[str], path: str):
         self.categories = categories
