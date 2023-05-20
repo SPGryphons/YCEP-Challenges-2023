@@ -2,8 +2,11 @@ What a silly name
 ===
 
 Author: **Ashley Tan**
+
 Discord Tag: **pinwheel#4458**
+
 Category: **OSINT**
+
 Difficulty: **Easy**
 
 1. Decrypt the whatasillyname.txt file using ROT47. It should say 'MARCH7TH(NOTTHEDATE)'
