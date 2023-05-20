@@ -21,6 +21,7 @@ class Counter:
                         if "Difficulty" in line:
                             diff = line.replace("#", "").replace(
                                 "*", "").replace("Difficulty", "").replace(":", "").replace("+", "").replace("-", "").strip()
+                            # TODO: fix this stupid hack
                             diffs[file] = [category, diff]
         return diffs
 
