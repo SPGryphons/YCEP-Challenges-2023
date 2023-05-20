@@ -5,4 +5,4 @@ COPY flag.txt .
 
 RUN pip install binarytree
 EXPOSE 3005
-CMD [ "python", "./solution.py" ]
+CMD [ "python", "./server.py" ]
