@@ -7,7 +7,7 @@ find which combination we used to recover it
 - Author: Koh Kai En
 - Discord Tag: thereconman#2688
 - Category: Cryptography
-- Difficulty: Medium
+- Difficulty: Hard
 
 ## Solution
 1. Bruteforce the combination of chemicals and compounds (chemical_7 and compound_4)
