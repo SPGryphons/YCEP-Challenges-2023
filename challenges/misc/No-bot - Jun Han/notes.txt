@@ -1,1 +1,0 @@
-https://medium.com/techloop/ctf-challenges-dockerizing-and-repository-structure-bd3aed9314de
