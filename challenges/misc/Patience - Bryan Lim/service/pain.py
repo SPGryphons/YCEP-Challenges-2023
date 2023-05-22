@@ -4,7 +4,7 @@ import threading
 
 FLAG = "YCEP2023{P4C13NC3_1S_4_V1RTU3}"
 
-message = f"\033[0;36mCongratulations! You either waited for 20 minutes for this flag, or accidentally saw this. Either way, here's your flag:\n{FLAG}\nPS: If you used a program to capture all the output, well done!\033[0m"
+message = f"\033[0;36mCongratulations! You either waited for 20 minutes for this flag, or accidentally saw this. Either way, here's your flag:\n{FLAG}\nPS: If you used a program to capture all the output, why are you so lazy?\033[0m"
 
 FAKE_COUNTDOWN_TIME = 900
 
@@ -176,7 +176,7 @@ if __name__ == "__main__":
 
   output("If you're here, you're too late! Too bad! :)", duration=355)
 
-  output("The flag is: " + FLAG, duration=5)
+  output(message, duration=5)
 
   fake_timer.output = "\033[0;36mIf you're here, you're too late! Too bad! :)\033[0m"
 
