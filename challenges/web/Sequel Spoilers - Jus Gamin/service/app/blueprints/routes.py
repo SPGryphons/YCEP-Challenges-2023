@@ -3,7 +3,7 @@ from flask import Blueprint, render_template, request, session, redirect
 from database import db
 from util import isAuthenticated
 
-flag = open('app/flag.txt').read()
+flag = open('flag.txt').read()
 
 web = Blueprint('web', __name__)
 api = Blueprint('api', __name__)
