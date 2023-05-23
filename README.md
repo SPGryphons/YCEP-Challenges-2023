@@ -1,7 +1,7 @@
 
 # YCEP 2023 Challenge Submissions
 
-This repository contains a database of challenges, container configurations and CTFd hosting scripts for YCEP 2023
+This repository contains a database of challenges, container configurations and CTFd hosting scripts for YCEP 2023.
 
 ## Local Deployment
 
