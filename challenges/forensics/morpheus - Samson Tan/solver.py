@@ -3,7 +3,7 @@ from PIL import Image
 # Solving for flag ################################################
 asciiArr = []
 
-image = Image.open(r"challenge.png")
+image = Image.open(r"./chal/challenge.png")
 pixel = image.load()
 for x in range(image.size[0]):
     for y in range(image.size[1]):

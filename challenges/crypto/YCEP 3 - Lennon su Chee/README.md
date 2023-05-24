@@ -1,5 +1,7 @@
 #forget password
 
+flag format is YCEP2023{Decoded Text}
+
 ## Summary
 
 - **Author:** Lennon Chee

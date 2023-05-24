@@ -6,23 +6,23 @@ from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad, unpad
 
 # Import Private Key
-file_in = open("2Keys\code\key1.pem", "rb")
+file_in = open(".\key1.pem", "rb")
 private_key = RSA.import_key(file_in.read())
 print(private_key)
 file_in.close()
 
 # Import Encrypted AES Key
-file_in = open("2Keys\code\encrypted_aes_key.txt", "rb")
+file_in = open(".\encrypted_aes_key.txt", "rb")
 encrypted_aes_key = file_in.read()
 file_in.close()
 
 # Import IV
-file_in = open("2Keys\code\iv.txt", "rb")
+file_in = open(".\iv.txt", "rb")
 iv = file_in.read()
 file_in.close()
 
 # Import Encrypted Flag
-file_in = open("2Keys\code\encrypted_flag.txt", "rb")
+file_in = open(".\encrypted_flag.txt", "rb")
 ciphertext = file_in.read()
 file_in.close()
 
