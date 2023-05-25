@@ -2,7 +2,7 @@ Docker:
   - '**/Dockerfile'
 
 Service:
-  - '**/service'
+  - '**/service/*'
 
 Markdown:
   - '**/*.md'
