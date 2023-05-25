@@ -369,7 +369,7 @@ class Game:
     self.interface.add_context(self.get_status, silent=True)
 
     while self.is_running:
-      if self.week >= 500:
+      if self.week >= 50:
         self.end_game()
         break
 
