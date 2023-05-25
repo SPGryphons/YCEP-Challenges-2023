@@ -8,9 +8,9 @@
 * **Difficulty:** Easy
 
 ## Solution
-- Simple integer overflow challenge
-- Input a negative value in the `quantity` field when buying regular coconuts to get a lot more money in the balance
-- Use this large sum of money to buy the golden coconut
+- Simple integer overflow challenge.
+- Input a negative value in the `quantity` field when buying regular coconuts to get a lot more money in the balance.
+- Use this large sum of money to buy the golden coconut.
 
 ## Flag
 ```
