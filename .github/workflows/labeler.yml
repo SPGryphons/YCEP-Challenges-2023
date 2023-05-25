@@ -1,2 +1,2 @@
-'Docker':
-  - Dockerfile
+docker:
+  - changed-files: '**/Dockerfile'
