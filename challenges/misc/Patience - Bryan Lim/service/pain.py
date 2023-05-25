@@ -1,5 +1,4 @@
 import time
-import os
 import threading
 
 FLAG = "YCEP2023{P4C13NC3_1S_4_V1RTU3}"
@@ -9,7 +8,7 @@ message = f"\033[0;36mCongratulations! You either waited for 20 minutes for this
 FAKE_COUNTDOWN_TIME = 900
 
 def clear():
-  os.system('cls' if os.name == 'nt' else 'clear')
+  print("\033c", end="")
 
 def output(text, duration=3, delay=0):
   text = "\033[0;36m" + text + "\033[0m"
@@ -18,7 +17,7 @@ def output(text, duration=3, delay=0):
     time.sleep(duration)
     fake_timer.clear()
   else:
-    print(text)
+    print(text, flush=True)
     time.sleep(duration)
     clear()
   time.sleep(delay)
@@ -56,7 +55,7 @@ class FakeTimer:
       if self.output:
         text += "\n" + self.output
       clear()
-      print(text)
+      print(text, flush=True)
       self.timer += 1
       time.sleep(1)
     
