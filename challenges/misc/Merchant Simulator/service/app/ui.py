@@ -57,7 +57,7 @@ class Interface:
 
   def clear(self, keep_context: bool = False):
     """Clears the terminal"""
-    os.system("cls" if os.name == "nt" else "clear")
+    print("\033c", end="")
     if keep_context:
       # If we want to keep the context, we need to re-output it
       self.output_context(with_pause=(not self.context_displayed)) # disgusting, I know.
