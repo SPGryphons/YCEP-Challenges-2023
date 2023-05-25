@@ -4,7 +4,7 @@ import threading
 
 FLAG = "YCEP2023{P4C13NC3_1S_4_V1RTU3}"
 
-message = f"\033[0;36mCongratulations! You either waited for 20 minutes for this flag, or accidentally saw this. Either way, here's your flag:\n{FLAG}\nPS: If you used a program to capture all the output, why are you so lazy?\033[0m"
+message = f"\033[0;36mCongratulations! You either waited for 20 minutes for this flag, or accidentally saw this. Either way, here's your flag:\n{FLAG}\nPS: If you captured all the output using a program or piping to a file, you disappoint me\033[0m"
 
 FAKE_COUNTDOWN_TIME = 900
 
