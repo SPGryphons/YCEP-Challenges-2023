@@ -12,5 +12,5 @@ Flag format: YCEP2023{final_code_output_in_string}
 
 ## Flag
 ```
-YCEP2023{!"#$((*,%.//02234:#<>6?ABEFGFHJLBDL=DN%9NOQ8*QRVVYZZ\^^^_abbbdfijkmmnoooppprwy~~}
+YCEP2023{"&'(**0013*4556+8:<=??@ABCE@E&F4FD#1GG+#IJKMNOOOPQQRRSSTUUUUVXYYZ\^_bccdddeeefgghhijkklmnnrvwxyzzzzz}
 ```
