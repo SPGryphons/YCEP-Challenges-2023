@@ -33,7 +33,7 @@ int main() {
     scanf("%s", room_key);
     fgets(flag, sizeof(flag), file);
     printf(room_key);
-    if (strcmp(room_key, secret_room_key) == 0) {
+    if (strcmp(room_key, flag) == 0) {
         printf("\n");
         printf("Welcome to the secret room!\n");
         printf("flag: %s\n", flag_ptr);
