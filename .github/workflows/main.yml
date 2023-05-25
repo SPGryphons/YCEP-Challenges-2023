@@ -1,38 +1,25 @@
-name: Pull Request Auto Labeller
+name: Pull Request Labeler
 
 on:
-  pull_request:
+  pull_request_target:
     types:
       - opened
       - synchronize
 
 jobs:
-  auto_labeller:
+  triage:
+    permissions:
+      contents: read
+      pull-requests: write
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Auto Labelling
-        uses: actions/github-script@v5
+      - name: Pull Request Labeler
+        uses: actions/labeler@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const labelName = "Docker";
-            const changedFiles = await github.pulls.listFiles({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.issue.number
-            });
-
-            const hasDockerfile = changedFiles.data.some(file => file.filename.toLowerCase().endsWith("dockerfile"));
-
-            if (hasDockerfile) {
-              await github.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                labels: [labelName]
-              });
-            }
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          configuration:
+            Docker:
+              - Dockerfile
