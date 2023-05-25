@@ -1,4 +1,5 @@
 import time
+import os
 import threading
 
 FLAG = "YCEP2023{P4C13NC3_1S_4_V1RTU3}"
@@ -8,7 +9,7 @@ message = f"\033[0;36mCongratulations! You either waited for 20 minutes for this
 FAKE_COUNTDOWN_TIME = 900
 
 def clear():
-  print("\033c", end="")
+  print("\033c", end="", flush=True)
 
 def output(text, duration=3, delay=0):
   text = "\033[0;36m" + text + "\033[0m"
