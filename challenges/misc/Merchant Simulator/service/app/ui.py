@@ -51,13 +51,13 @@ class Interface:
   def output(self, message: str, with_pause: bool = True):
     """Outputs a message to the user beautifully"""
     for line in message.splitlines():
-      print(line)
+      print(line, flush=True)
       if with_pause:
         time.sleep(0.01)
 
   def clear(self, keep_context: bool = False):
     """Clears the terminal"""
-    print("\033c", end="")
+    print("\033c", end="", flush=True)
     if keep_context:
       # If we want to keep the context, we need to re-output it
       self.output_context(with_pause=(not self.context_displayed)) # disgusting, I know.
