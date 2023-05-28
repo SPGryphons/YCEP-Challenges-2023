@@ -1,24 +1,48 @@
 import requests
-from typing import Dict, List, Tuple
+import random
+import string
+from dataclasses import dataclass
+from typing import Dict, List, Optional, Tuple
+
 
 class UserHandler:
-    @staticmethod
-    def generate_session(API_KEY: str) -> requests.Session:
-        r = requests.Session()
-        r.headers.update({"Authorization": f"Token {API_KEY}"})
-        return r
-    
-    def __init__(self, API_KEY: str, URL: str):
-        self.session: requests.Session = self.generate_session(API_KEY)
-        self.URL: str = URL
+    def __init__(self, session: requests.Session, URL: str):
+        self.session = session
+        self.URL = URL
 
-    def get_users(self) -> Dict[str, List[Dict]]:
-        response = self.session.get(self.URL + "/users").json()
+    def get_users(self) -> Dict[str, List[Dict[str, str]]]:
+        response = self.session.get(f"{self.URL}/users").json()
         return response
 
-    def create_user(self, user: dict) -> bool | Tuple[bool, List[str]]:
-        response = self.session.post(self.URL + "/users", json=user).json()
-        if response["success"]:
-            return True, []
-        else:
-            return False, response["error"]
+    def post_user(self, user: Dict[str, str]) -> Tuple[bool, List[str]]:
+        response: dict = self.session.post(
+            f"{self.URL}/users", json=user).json()
+
+        success = response.get("success", False)
+        errors = response.get("errors", [])
+
+        return success, errors
+
+@dataclass
+class User:
+    username: str
+    email: str
+    password: Optional[str] = None
+
+    def __post_init__(self):
+        self.password = self._generate_password()
+
+    @staticmethod
+    def _generate_password() -> str:
+        return ''.join(random.choice(string.ascii_letters) for _ in range(10))
+
+    def generate_user(self) -> Dict[str, str]:
+        return {
+            "name": self.username,
+            "email": self.email,
+            "password": self.password,
+            "type": "user",
+            "verified": "true",
+            "banned": "false",
+            "hidden": "false"
+        }
