@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web1:
+    build: ./challenges/web/Big_Brother/service/
+    ports:
+      - "50982:4000"
+    restart: always
+    container_name: Big_Brother
+
+  web2:
+    build: ./challenges/web/dc/service/
+    ports:
+      - "4002:1337"
+    restart: always
+    container_name: DC
+
+
