@@ -24,7 +24,7 @@ def return_index():
         flag = 'YCEP2023{h1dd3n_g4t3w4y}'
     else:
         flag = None
-    return render_template_string(open('../dist/index.html').read(), flag=flag)
+    return render_template_string(open('./index.html').read(), flag=flag)
 
 @app.route('/check_user')
 def check_user():
