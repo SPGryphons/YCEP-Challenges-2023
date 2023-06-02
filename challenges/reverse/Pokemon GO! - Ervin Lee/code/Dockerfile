@@ -9,4 +9,4 @@ RUN apt-get install golang -y
 RUN go build /etc/pokemon.go
 RUN chmod +x pokemon
 EXPOSE 3001
-CMD ./ynetd -p 3001 /bin/bash
+CMD ./ynetd -p 3001 /bin/rbash
