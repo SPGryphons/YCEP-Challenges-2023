@@ -5,8 +5,8 @@ FROM python:3.9-slim-buster
 WORKDIR /app
 
 # Add the current directory contents into the container at /app
-ADD service /app
-ADD dist /app
+COPY app.py /app
+COPY index.html /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir flask
