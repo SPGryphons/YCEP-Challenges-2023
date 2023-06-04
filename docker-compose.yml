@@ -71,13 +71,6 @@ services:
     restart: always
     container_name: web store - kock kaien
     
-  web10:
-    build: ./challenges/web/web store - kock kaien/service/
-    ports:
-      - "4009:1337"
-    restart: always
-    container_name: web store - kock kaien
-    
     
   pwn1:
     build: ./challenges/pwn/Coconut Mall - Ervin Lee/service/
