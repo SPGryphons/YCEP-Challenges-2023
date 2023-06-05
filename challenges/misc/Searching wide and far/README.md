@@ -9,7 +9,7 @@ Searching wide and far
 
 ## Solution
 1. Vulnerability is in `strstr` function, where the `hackstack` and `needle` are flipped.
-2. Connect to netcat instance. Enter the string `FractionMonkeyPeachesRandomAldenpneumonoultramicroscopicsilicovolcanoconiosissyzygybloviatecalligraphy` 64 times to get the flag
+2. Connect to netcat instance. Enter the string `z  ` 64 times to get the flag
 
 ## Flag
 ```
