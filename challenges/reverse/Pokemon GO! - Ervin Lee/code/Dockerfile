@@ -8,5 +8,6 @@ RUN apt-get update -y && apt-get upgrade -y
 RUN apt-get install golang -y
 RUN go build /etc/pokemon.go
 RUN chmod +x pokemon
+RUN chmod +x ynetd
 EXPOSE 3001
 CMD ./ynetd -p 3001 /bin/rbash
