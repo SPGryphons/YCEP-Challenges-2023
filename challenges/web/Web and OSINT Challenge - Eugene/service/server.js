@@ -14,8 +14,8 @@ var accountInfo = {
     }
 }
 
-
-app.listen(8080, "localhost");
+host = '0.0.0.0'
+app.listen(8080, host);
 
 app.get("/post_text/:id", function (req, res) {
     var id = req.params.id;
