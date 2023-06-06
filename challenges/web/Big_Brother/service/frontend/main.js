@@ -190,5 +190,5 @@ button.addEventListener('mouseleave', function () {
 
 // ============================= WHY DOESN'T THIS WORK =============================
 
-// let him_cook = "YnV0dG9uLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgZnVuY3Rpb24oKSB7CiAgICBmZXRjaCgiaHR0cDovL2xvY2FsaG9zdDo1MDk4Mi95b3V3aWxsbmV2ZXJicnV0ZWZvcmNldGhpc2FwaSIpCiAgICAudGhlbihyZXNwb25zZSA9PiByZXNwb25zZS5qc29uKCkpCiAgICAudGhlbihkYXRhID0+IHsKICAgICAgY29uc29sZS5sb2coZGF0YSk7CiAgICB9KQogICAgLmNhdGNoKGVycm9yID0+IHsKICAgICAgY29uc29sZS5lcnJvcignRXJyb3I6JywgZXJyb3IpOwogICAgfSk7Cn0pOw=="
+// let him_cook = "YnV0dG9uLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgZnVuY3Rpb24oKSB7CiAgICBmZXRjaCgiaHR0cDovL2xvY2FsaG9zdDo0MDAwL3lvdXdpbGxuZXZlcmJydXRlZm9yY2V0aGlzYXBpIikKICAgIC50aGVuKHJlc3BvbnNlID0+IHJlc3BvbnNlLmpzb24oKSkKICAgIC50aGVuKGRhdGEgPT4gewogICAgICBjb25zb2xlLmxvZyhkYXRhKTsKICAgIH0pCiAgICAuY2F0Y2goZXJyb3IgPT4gewogICAgICBjb25zb2xlLmVycm9yKCdFcnJvcjonLCBlcnJvcik7CiAgICB9KTsKfSk7"
 // WHEN button CLICK() -> button eval(atob(him_cook))
