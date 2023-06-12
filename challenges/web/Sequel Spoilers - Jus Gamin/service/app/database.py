@@ -25,7 +25,7 @@ class Database:
   def login(self, username, password):
     cursor = self.conn.cursor()
     cursor.execute(
-      f'SELECT * FROM users WHERE username = "{username}" AND password = "{password}"'
+      f"SELECT * FROM users WHERE username = '{username}' AND password = '{password}'"
     )
     user = cursor.fetchone()
 
