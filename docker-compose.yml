@@ -91,12 +91,6 @@ services:
       - "5002:3000"
     restart: always
     container_name: hazbin_hotel
- pwn4:
-    build: ./challenges/pwn/shadow/service
-    ports:
-      - "5003:22"
-    restart: always
-    container_name: shadow
  misc1:
     build: ./challenges/misc/I_Love_Python_Too - Samson Tan/service/
     ports:
@@ -145,3 +139,9 @@ services:
       - "7001:80"
     restart: always
     container_name: spamton
+ linux1:
+    build: ./challenges/linux/shadow/service/
+    ports:
+      - "8000:22"
+    restart: always
+    container_name: shadow
