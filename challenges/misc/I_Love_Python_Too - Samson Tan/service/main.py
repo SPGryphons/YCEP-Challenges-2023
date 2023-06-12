@@ -13,7 +13,7 @@ banner = '''
 print(banner)
 
 with open("flag/flag.txt", "r") as f:
-  password = f.read().strip()
+  super_secret_password = f.read().strip()
 
 def errHandler():
   print('Error: Incorrect password.')
@@ -21,7 +21,7 @@ def errHandler():
 
 try:
   userInput = input("Enter Password > ")
-  if userInput == password:
+  if userInput == super_secret_password:
     with open('flag/flag.txt') as f:
       print(f.read())
   else:
