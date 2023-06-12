@@ -139,12 +139,3 @@ services:
       - "7001:80"
     restart: always
     container_name: spamton
-<<<<<<< HEAD
-=======
-  linux1:
-    build: ./challenges/linux/shadow/service/
-    ports:
-      - "8000:22"
-    restart: always
-    container_name: shadow
->>>>>>> 1a1485512fbd6292c03bf1df032cdb656a025e8b
