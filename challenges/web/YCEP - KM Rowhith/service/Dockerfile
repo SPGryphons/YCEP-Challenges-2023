@@ -1,5 +1,5 @@
 FROM httpd:latest
 
-COPY . .
+COPY . /usr/local/apache2/htdocs/
 
 EXPOSE 80
