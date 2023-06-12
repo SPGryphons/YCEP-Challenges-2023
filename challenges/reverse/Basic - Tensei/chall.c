@@ -26,7 +26,6 @@ void encrypt(char* str) {
 
 int main() {
     char secret[] = "Input Flag Here";
-
     // Encrypt string
     encrypt(secret);
     printf("Encrypted string: %s\n", secret);
