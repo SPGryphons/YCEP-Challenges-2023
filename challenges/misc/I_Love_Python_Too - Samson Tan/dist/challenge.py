@@ -14,7 +14,6 @@ print(banner)
 with open("flag/flag.txt", "r") as f:
     password = f.read()
 
-
 def errHandler():
     print('Error: Incorrect password.')
     exit()

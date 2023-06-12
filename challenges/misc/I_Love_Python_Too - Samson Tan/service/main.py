@@ -12,7 +12,8 @@ banner = '''
 '''
 print(banner)
 
-password = 'You_Really_Thought_I_Would_Put_The_Password_Here?'
+with open("flag/flag.txt", "r") as f:
+  password = f.read().strip()
 
 def errHandler():
   print('Error: Incorrect password.')
