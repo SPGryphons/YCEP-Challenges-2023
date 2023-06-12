@@ -1,141 +1,150 @@
 version: '3'
 
 services:
- web1:
+  web1:
     build: ./challenges/web/Big_Brother/service/
     ports:
       - "4000:4000"
     restart: always
     container_name: Big_Brother
 
- web2:
+  web2:
     build: ./challenges/web/dc/service/
     ports:
       - "4001:1337"
     restart: always
     container_name: dc
 
- web3:
+  web3:
     build: ./challenges/web/Jason_s_Web_Trivia - Jus Gamin/service/
     ports:
       - "4002:1337"
     restart: always
     container_name: Jason_s_Web_Trivia
 
- web4:
+  web4:
     build: ./challenges/web/Sequel_Spoilers - Jus Gamin/service/
     ports:
       - "4003:1337"
     restart: always
     container_name: Sequel_Spoilers
 
- web5:
+  web5:
     build: ./challenges/web/simple_login/service/
     ports:
       - "4004:5000"
     restart: always
     container_name: simple_login
 
- web6:
+  web6:
     build: ./challenges/web/suspicious_blog - Jerald Yeo/service/
     ports:
       - "4005:1337"
     restart: always
     container_name: suspicious_blog
 
- web7:
+  web7:
     build: ./challenges/web/this_is_a_mess/service/
     ports:
       - "4006:80"
     restart: always
     container_name: this_is_a_mess
 
- web8:
+  web8:
     build: ./challenges/web/Web and OSINT Challenge - Eugene/service/
     ports:
       - "4007:8080"
     restart: always
     container_name: Web_and_OSINT
 
- web9:
+  web9:
     build: ./challenges/web/web_store - kock kaien/service/
     ports:
       - "4008:1337"
     restart: always
     container_name: web_store
 
- web10:
+  web10:
     build: ./challenges/web/YCEP - KM Rowhith/service/
     ports:
       - "4009:80"
     restart: always
     container_name: YCEP
 
- pwn1:
+  pwn1:
     build: ./challenges/pwn/Coconut Mall - Ervin Lee/service/
     ports:
       - "5000:3002"
     restart: always
     container_name: coconut_mall
 
- pwn2:
+  pwn2:
     build: ./challenges/pwn/Happy Hotel - Ervin Lee/service/
     ports:
       - "5001:3001"
     restart: always
     container_name: happy_hotel
 
- pwn3:
+  pwn3:
     build: ./challenges/pwn/Hazbin Hotel - Ervin Lee/service/
     ports:
       - "5002:3000"
     restart: always
     container_name: hazbin_hotel
- misc1:
+  misc1:
     build: ./challenges/misc/I_Love_Python_Too - Samson Tan/service/
     ports:
       - "6000:1337"
     restart: always
     container_name: I_Love_Python_Too
 
- misc2:
+  misc2:
     build: ./challenges/misc/Merchant Simulator/service/
     ports:
       - "6001:1337"
     restart: always
     container_name: Merchant_Simulator
 
- misc3:
+  misc3:
     build: ./challenges/misc/Merchant Simulator 2/service/
     ports:
       - "6002:1337"
     restart: always
     container_name: Merchant_Simulator_2
 
- misc4:
+  misc4:
     build: ./challenges/misc/Patience - Bryan Lim/service/
     ports:
       - "6003:1337"
     restart: always
     container_name: patience
 
- misc5:
+  misc5:
     build: ./challenges/misc/Searching wide and far/service/
     ports:
       - "6004:1337"
     restart: always
     container_name: Searching_wide_and_far
 
- rev1:
+  rev1:
     build: ./challenges/reverse/Pokemon GO! - Ervin Lee/code/
     ports:
       - "7000:3001"
     restart: always
     container_name: pokemon_go
 
- osint1:
+  osint1:
     build: ./challenges/osint/SPAMTON/service/
     ports:
       - "7001:80"
     restart: always
     container_name: spamton
+<<<<<<< HEAD
+=======
+  linux1:
+    build: ./challenges/linux/shadow/service/
+    ports:
+      - "8000:22"
+    restart: always
+    container_name: shadow
+>>>>>>> 1a1485512fbd6292c03bf1df032cdb656a025e8b
