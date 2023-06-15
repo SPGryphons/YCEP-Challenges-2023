@@ -71,6 +71,13 @@ services:
     restart: always
     container_name: YCEP
 
+  web11:
+    build: ./challenges/web/directory_traversal/service/
+    ports:
+      - "4010:1337"
+    restart: always
+    container_name: directory_traversal
+
   web12:
     build: ./challenges/web/Wotagei
     ports:
