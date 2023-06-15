@@ -71,7 +71,7 @@ services:
     restart: always
     container_name: YCEP
 
-  web11:
+  web12:
     build: ./challenges/web/Wotagei
     ports:
       - "4010:80"
