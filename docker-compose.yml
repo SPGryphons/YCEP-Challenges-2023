@@ -71,6 +71,13 @@ services:
     restart: always
     container_name: YCEP
 
+  web11:
+    build: ./challenges/web/Wotagei
+    ports:
+      - "4010:80"
+    restart: always
+    container_name: Wotagei
+
   pwn1:
     build: ./challenges/pwn/Coconut Mall - Ervin Lee/service/
     ports:
@@ -125,6 +132,20 @@ services:
       - "6004:1337"
     restart: always
     container_name: Searching_wide_and_far
+  
+  misc6:
+    build: ./challenges/misc/Can_you_figure_out_the_key
+    ports:
+      - "6005:7000"
+    resart: always
+    container_name: Can_you_figure_out_the_key
+  
+  misc7:
+    build: ./challenges/misc/shadow
+    ports:
+      - "6006:22000"
+    restart: always
+    container_name: shadow
 
   rev1:
     build: ./challenges/reverse/Pokemon GO! - Ervin Lee/code/
