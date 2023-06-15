@@ -70,21 +70,18 @@ services:
       - "4009:80"
     restart: always
     container_name: YCEP
-
   web11:
     build: ./challenges/web/directory_traversal/service/
     ports:
       - "4010:1337"
     restart: always
     container_name: directory_traversal
-
   web12:
     build: ./challenges/web/Wotagei
     ports:
-      - "4010:80"
+      - "4011:80"
     restart: always
     container_name: Wotagei
-
   pwn1:
     build: ./challenges/pwn/Coconut Mall - Ervin Lee/service/
     ports:
