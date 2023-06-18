@@ -1,0 +1,3 @@
+The Vigenère cipher uses a keyword to encrypt and decrypt messages.
+The keyword is of critical importance in breaking the encryption.
+The keyword can be found by carefully examining the theme of ancient civilizations.

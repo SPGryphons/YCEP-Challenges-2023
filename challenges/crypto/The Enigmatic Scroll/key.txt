@@ -1,0 +1,3 @@
+Once upon a time, in the ancient land of Egypt, a young explorer named Alex embarked on a thrilling adventure. While exploring an ancient temple, Alex discovered a hidden scroll with a cryptic message. The scroll was encrypted using the Vigenère cipher. Determined to unravel its meaning, Alex applied the keyword "Homo erectus," a name associated with early human civilisations.
+
+With each letter decoded, a fascinating story unfolded. It revealed the remarkable journey of Homo erectus, an early human species who roamed the Earth thousands of years ago. They were skilled hunters, creating primitive tools and fire. Alex's heart raced as the story came to life, painting a vivid picture of humanity's evolution.

@@ -1,0 +1,11 @@
+1)In this representation, the ciphertext forms a zigzag shape, resembling the Rail Fence pattern. Each letter is placed in the corresponding position to create the shape.
+
+2)To decrypt the message, read the letters following the zigzag pattern from left to right.
+
+3)The Rail Fence cipher employs a zigzag pattern with a specific number of rails.
+
+4)Observe the frequency and patterns of the ciphertext to assist in identifying the number of rails.
+
+*Uses Rail: 4, Offset: 3
+
+extra info: https://en.wikipedia.org/wiki/Rail_fence_cipher

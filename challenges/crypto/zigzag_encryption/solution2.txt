@@ -1,0 +1,4 @@
+1)Analyse the given ciphertext, which has been encrypted using the Rail Fence cipher with an unknown number of rails.
+2)Utilise forensic techniques and decryption methods to decipher the encoded message.
+3)Experiment with different numbers of rails to determine the correct configuration for decryption.
+3)Submit the flag, which is the deciphered plaintext, to complete the challenge.

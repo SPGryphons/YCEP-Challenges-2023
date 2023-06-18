@@ -1,0 +1,6 @@
+Unzip the zip file: Unzip folder.zip
+
+Navigate into the find me folder and use the find command with the keyword "*flag*" : cd findme && find . -name "*flag*" 2>/dev/null
+
+The flag is YCEP2023{F1ndinG_Th3_Fl4g_H1dd3N}
+

@@ -1,0 +1,1 @@
+You have discovered an encrypted message using the Rail Fence cipher. The ciphertext has been carefully crafted to hide important information. Your task is to decrypt the message and unveil the hidden truth. Can you solve the Zigzag Encryption Mystery?

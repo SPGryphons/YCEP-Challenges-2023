@@ -1,0 +1,7 @@
+Deep within an ancient library, a dusty manuscript lay untouched for centuries. Its cryptic text whispered of untold secrets. Only those who could decipher its intriguing message would uncover the hidden knowledge. 
+
+Hint: Symbol code for encrypting messages using unique symbols
+
+Enter Flag: YCEP2023{decoded_cipher}
+
+Ciphertext in image file.
