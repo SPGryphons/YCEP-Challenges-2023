@@ -3,6 +3,8 @@
 
 This repository contains a database of challenges, container configurations and CTFd hosting scripts for YCEP 2023.
 
+Note that not all challenges have README.md solutions, oops.
+
 ## Deployment
 
 For deployment on remote/local, run:
